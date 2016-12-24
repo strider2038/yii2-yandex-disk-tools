@@ -11,12 +11,12 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "nixsolutions/yandex-php-library": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "strider2038\\yandexDiskTools\\": "",
-            "nixsolutions/yandex-php-library": "dev-master"
+            "strider2038\\yandexDiskTools\\": ""
         }
     }
 }
