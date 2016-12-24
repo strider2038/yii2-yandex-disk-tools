@@ -1,0 +1,22 @@
+{
+    "name": "strider2038/yii2-yandex-disk-tools",
+    "description": "Useful classes and tools for working with Yandex.Disk throw Yandex.Disk API",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","yandex","disk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "strider2038",
+            "email": "strider2038@rambler.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "strider2038\\yandexDiskTools\\": "",
+            "nixsolutions/yandex-php-library": "dev-master"
+        }
+    }
+}
