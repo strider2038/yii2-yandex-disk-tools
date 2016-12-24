@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist strider2038/yii2-yandex-disk-tools "*"
+php composer.phar require --prefer-dist strider2038/yii2-yandex-disk-tools "dev-master"
 ```
 
 or add
 
 ```
-"strider2038/yii2-yandex-disk-tools": "*"
+"strider2038/yii2-yandex-disk-tools": "dev-master"
 ```
 
 to the require section of your `composer.json` file.

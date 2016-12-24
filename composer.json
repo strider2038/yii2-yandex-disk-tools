@@ -1,6 +1,6 @@
 {
     "name": "strider2038/yii2-yandex-disk-tools",
-    "description": "Useful classes and tools for working with Yandex.Disk throw Yandex.Disk API",
+    "description": "Useful classes and tools for working with Yandex.Disk",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","yandex","disk"],
     "license": "MIT",
