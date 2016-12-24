@@ -25,4 +25,20 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-UNDER DEVELOPMENT
+#### strider2038\yandexDiskTools\Client
+This is a simple wrapper class for original [Yandex\Disk\DiskClient](https://github.com/nixsolutions/yandex-php-library). To use it put this in your config.
+
+```php
+<?php
+
+return [
+	// ...
+	'components' => [
+		// ...
+		'yadisk' => [
+			'class' => '\strider2038\yandexDiskTools\Client',
+			'token' => '', // you access token for Yandex API
+		]
+	]
+];
+```
