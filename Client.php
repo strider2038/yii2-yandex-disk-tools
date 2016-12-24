@@ -45,7 +45,7 @@ class Client extends \yii\base\Component {
     public function __call($name, $params)
     {
         if (method_exists($this->client, $name)) {
-            return call_user_func([$this->client, $name], $params);
+            return call_user_func_array([$this->client, $name], $params);
         }
         throw new UnknownMethodException('Calling unknown method: ' . get_class($this) . "::$name()");
     }
