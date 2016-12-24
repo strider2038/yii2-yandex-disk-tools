@@ -1,6 +1,6 @@
-YandexDiskTools
+Yii2 - YandexDiskTools
 ===============
-Useful classes and tools for working with Yandex.Disk throw Yandex.Disk API
+Useful classes and tools for working with Yandex.Disk
 
 Installation
 ------------
